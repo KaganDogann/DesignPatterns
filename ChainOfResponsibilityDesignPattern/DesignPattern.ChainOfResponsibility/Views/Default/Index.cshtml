@@ -1,0 +1,18 @@
+﻿@model CustomerProcessViewModel
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<div>
+    <br />
+    <form method="post">
+        <label >Müşteri Adı Soyadı</label>
+        <input type="text" asp-for="Name" />
+        <br />
+        <label>Çekilecek Tutar</label>
+        <input type="text" asp-for="Amount" />
+        <br />
+        <button>Para Çek</button>
+    </form>
+</div>
